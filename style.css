@@ -61,3 +61,20 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.flexrow{
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+#arrow{
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 1.5em;
+}
+#arrow:active{
+    transform: translateY(4px);
+}
