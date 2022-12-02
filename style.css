@@ -51,7 +51,10 @@ p{
     background-color: rgb(116, 194, 44);
     border-radius: 3em;
 }
-.button:hover{background-color: rgb(102, 179, 31);}
+.button:hover{
+    background-color: rgb(102, 179, 31);
+    cursor: pointer;
+}
 .button:active{
     background-color: rgb(102, 179, 31);
     box-shadow: 0 5px rgba(102, 102, 102, 0.671);
@@ -74,6 +77,9 @@ a{
     width: 1.2em;
     height: 1.2em;
     margin-right: 1.5em;
+}
+#arrow:hover{
+    cursor: pointer;
 }
 #arrow:active{
     transform: translateY(4px);
