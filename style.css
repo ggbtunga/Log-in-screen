@@ -59,6 +59,7 @@ p{
     background-color: rgb(102, 179, 31);
     box-shadow: 0 5px rgba(102, 102, 102, 0.671);
     transform: translateY(4px);
+    transition: 0.2s;
 }
 a{
     text-decoration: none;
@@ -83,4 +84,5 @@ a{
 }
 #arrow:active{
     transform: translateY(4px);
+    transition: 0.2s;
 }
